@@ -83,3 +83,4 @@ print(cs_courses.union(art_courses))
 
 empty_list = []
 empty_list = list() #lista vazia
+
