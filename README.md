@@ -2,4 +2,4 @@
 Sistemas Embarcados II
 
 
-Todos os códigos estão contidos na branch master
+Todas as atividades semanais estão na branch master
