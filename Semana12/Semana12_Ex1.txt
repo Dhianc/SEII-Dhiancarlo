@@ -1,0 +1,18 @@
+1. Disable SSH password login
+SSH é o padrão para acessar um servidor Linux remotamente. A dica aqui além de desativar o SSH password login é ativar SSH keys. Isso porque senhas de texto são supostamente inseguras e são desativadas se não criptografado. Antes do SSH enviar a informação, ele estabelecerá um canal criptografado com o servidor e dentro dela é enviada a senha. O servidor ssh tem sua própria chave privada e é preciso verificar a impressão digital antes de se conectar a um novo servidor. Sua máquina se lembra da chave pública do servidor em um arquivo de hosts conhecidos e um aviso é exibido em caso de risco com a conexão.
+
+
+2. Disable direct root SSH login
+Ao invés disso, crie um usuário sem privilégios e permições de root. É um aspecto de segurança muito importante para o software trabalhar com o mínimo de privilégio possível para o usuário. Recomenda-se adicionar o usuário sem privilégios ao grupo sudo permitindo que o mesmo possa executar comando como root.
+
+3. Change default SSH port
+Compara-se à definição de "óleo de cobra" que significa "uma substância sem valor medicinal real vendida como remédio para todas as doenças". E assim como na medicina, você pode ter uma falsa sensação de segurança.
+
+4.Disable IPv6
+Apesar de ser melhor que o IPv4, não se obtêm muito proveito disso. Um firewall mal configurado não cobre o IPv6 tornando-o vulnerável a ataques.
+
+5.Setup a basic Firewall
+Usado para bloquear todas as portas e abrir apenas o necessário. Se mal configurado é extremamente ineficaz.
+
+6.Auto updates
+Manter as máquinas atualizadas pode prevenir vulnerabilidades encontradas recentemente. Já os softwares instalados devem ser atualizados por si não fazendo parte da atualização da máquina.
