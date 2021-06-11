@@ -4,7 +4,7 @@ Para a mineração de bitcoin foi criado o ASIC (Application Specific Integrated
 
 b) EXPLIQUE COMO FUNCIONA A COMUNICAÇÃO E INFRAESTRUTURA DO SITES HTTPS E A ARQUITETURA DE REDE PARA A IMPLEMENTAÇÃO DO PROTOCOLO TSL/SSL.
 
-Secure Sockets Layers e Transport Layer Security encriptam mensagens antes de serem enviadas e combina as chaves com o destinatário que faz o handshake. Apenas com esse comprimento é mandada a chave para desencriptar a informação enviada
+Secure Sockets Layers e Transport Layer Security encriptam mensagens antes de serem enviadas e combina as chaves com o destinatário que faz o handshake. Apenas com esse comprimento é mandada a chave para desencriptar a informação enviada.
 
 c) PESQUISE EM OUTRAS FONTES E EXPLIQUE O QUE É UM CERTIFICADO DIGITAL E COMO FUNCIONA O SISTEMA ICP-BRASIL, DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).
 
