@@ -6,4 +6,6 @@ b) EXPLIQUE COMO FUNCIONA A COMUNICAÇÃO E INFRAESTRUTURA DO SITES HTTPS E A AR
 
 Secure Sockets Layers e Transport Layer Security encriptam mensagens antes de serem enviadas e combina as chaves com o destinatário que faz o handshake. Apenas com esse comprimento é mandada a chave para desencriptar a informação enviada
 
-c) PESQUISE EM OUTRAS FONTES E EXPLIQUE O QUE É UM CERTIFICADO DIGITAL E COMO FUNCIONA O SISTEMA ICP-BRASIL, DO INSTITUTO NACIONAL DE TEXNOLOGIA DA INFORMAÇÃO (ITI).
+c) PESQUISE EM OUTRAS FONTES E EXPLIQUE O QUE É UM CERTIFICADO DIGITAL E COMO FUNCIONA O SISTEMA ICP-BRASIL, DO INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).
+
+Um certificado digital é uma identidade virtual que permite a identificação segura e inequivoca do autor de uma mensagem ou transação feita em meio eletrônico. As regras estabelecidas pelo comitê gestor da ICP-Brasil determinam que a assinatura associa uma entidade, pessoa, processo servidor a um par de chaves criptográficas.
